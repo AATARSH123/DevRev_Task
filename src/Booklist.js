@@ -223,7 +223,7 @@ function Booklist() {
         maxWidth:"250px",
         alignContent:"center"
       }} >{renderPagination()}</div>
-      {data.length>0 && (
+     
         <MDBRow>
         <MDBCol size="8">
           <h5>Sort By</h5>
@@ -248,7 +248,7 @@ function Booklist() {
        
       </MDBRow>
 
-      )}
+      
     </div>
     
    </MDBContainer>
